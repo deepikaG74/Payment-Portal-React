@@ -1,8 +1,11 @@
+import React from "react";
+import Header from "./components/Header";
+import Dashboard from "./pages/Dashboard";
 function App() {
   return (
-    <main style={{ fontFamily: "Arial, sans-serif", padding: "2rem" }}>
-      <h1>Payment Portal</h1>
-      <p>Hello Deepika!!</p>
+    <main className="app-main">
+      <Header />
+      <Dashboard />
     </main>
   );
 }
